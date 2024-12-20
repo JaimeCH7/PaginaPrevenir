@@ -1,10 +1,10 @@
 import React from 'react'
-import { Shield, Eye, Lock, Bike } from 'lucide-react'
+import { Shield, Eye, Lock, Bike, ShieldCheck } from 'lucide-react'
 
 export default function Features() {
   const features = [
     {
-      icon: <Shield className="w-12 h-12 text-red-500" />,
+      icon: <ShieldCheck className="w-12 h-12 text-red-500" />,
       title: 'Protección Integral',
       description: 'Soluciones completas de seguridad para proteger su hogar y negocio.',
       image: '/images/proteccion.jpeg'

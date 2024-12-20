@@ -7,12 +7,19 @@ const Contact = () => {
     <section id="contact" className="py-16 bg-muted">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">Contáctenos</h2>
-        <div className="text-center mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center mb-8 gap-4">
           <Image 
             src="/images/LOGO_H_PNG.png" 
             alt="Prevenir Logo Horizontal" 
             width={500} 
             height={200} 
+            className="mx-auto"
+          />
+          <Image 
+            src="/images/QR.png" 
+            alt="Imagen Adicional" 
+            width={250} 
+            height={100} 
             className="mx-auto"
           />
         </div>
