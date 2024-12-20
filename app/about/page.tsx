@@ -32,6 +32,14 @@ const About = () => {
                 con el fin de lograr una relación comercial mutuamente beneficiosa.
               </p>
             </div>
+            <div className="flex justify-center mb-8">
+            <video 
+              className="w-full md:w-2/3 h-auto rounded-lg shadow-xl" 
+              controls 
+              src="/videos/animacion1.mp4"
+              //alt="Animación explicativa de Prevenir Seguridad Sin Límite"
+            />
+          </div>
             <div>
               <Image
                 src="/images/about-us.jpg"
