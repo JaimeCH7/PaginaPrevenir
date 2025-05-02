@@ -33,7 +33,7 @@ const Contact = () => {
           <div className="flex flex-col items-center text-center space-y-4">
             <Mail className="w-8 h-8 text-primary" />
             <h3 className="text-xl font-semibold">Email</h3>
-            <p>comercial@seguridadprevenir.com</p>
+            <p>operaciones@seguridadprevenir.com</p>
           </div>
           <div className="flex flex-col items-center text-center space-y-4">
             <MapPin className="w-8 h-8 text-primary" />
