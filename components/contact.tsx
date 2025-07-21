@@ -27,13 +27,13 @@ const Contact = () => {
           <div className="flex flex-col items-center text-center space-y-4">
             <Phone className="w-8 h-8 text-primary" />
             <h3 className="text-xl font-semibold">Teléfono</h3>
-            <p>+57 302 252 4719</p>
+            <p>+57 323 530 4472</p>
             <p>(601) 5312692</p>
           </div>
           <div className="flex flex-col items-center text-center space-y-4">
             <Mail className="w-8 h-8 text-primary" />
             <h3 className="text-xl font-semibold">Email</h3>
-            <p>operaciones@seguridadprevenir.com</p>
+            <p>gerencia@seguridadprevenir.com</p>
           </div>
           <div className="flex flex-col items-center text-center space-y-4">
             <MapPin className="w-8 h-8 text-primary" />
